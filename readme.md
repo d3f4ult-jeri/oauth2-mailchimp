@@ -33,8 +33,8 @@ Your application begins the authorization process by redirecting the user to the
   
 Below is an example authorize_uri.
 
-  ` https://login.mailchimp.com/oauth2/authorize?
-    response_type=code&client_id=635959587059&redirect_uri=http%3A%2F%2F192.168.1.8%2Foauth%2Fcomplete.php `
+  `  https://login.mailchimp.com/oauth2/authorize?
+     response_type=code&client_id=635959587059&redirect_uri=http%3A%2F%2F192.168.1.8%2Foauth%2Fcomplete.php `
     
 4. In testoauth2_connect, create a variable that holds the value of the **Client_ID** and **Client Secret**. And also create a response that will redirect the user to the **authorize_uri**.
 
