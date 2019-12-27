@@ -1,6 +1,6 @@
 # How to use OAuth2 | MailChimp
 
-## Here is the list of available OAuth2 endpoints.
+## Here are the lists of available OAuth2 endpoints.
 
 * authorize_uri: https://login.mailchimp.com/oauth2/authorize
 * access_token_uri: https://login.mailchimp.com/oauth2/token
